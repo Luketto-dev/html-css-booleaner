@@ -16,7 +16,17 @@ main h1{
 }
 
 main span {
-    color: rgb(61, 181, 255);;
+    color: rgb(61, 181, 255);
+}
+
+table{
+    width: 100%;
+}
+
+tr th{
+    text-align: left;
+    background-color: rgb(61, 181, 255);
+    color: rgb(255, 255, 255);
 }
 
 .m-top{
@@ -41,4 +51,8 @@ main span {
 
 .container-img figcaption{
     font-size: 14px;
+}
+
+.bg-tbody{
+    background-color: rgb(191, 230, 255);
 }
