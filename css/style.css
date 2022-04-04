@@ -2,13 +2,16 @@
 * {
     margin: 0;
 }
+/* SELETTORI */
 main{
     margin: 5px;
 }
-/* inserisco bg all'header */
+
+/* SELETTORI */
+/* INSERISCO BG ALL'HEADER*/
 header {
     background-image: url("../img/pattern.png");
-    background-color: rgb(61, 181, 255);
+    background-color: rgba(61, 181, 255, 0.90);
     background-repeat: repeat;
     height: 170px;
     position: relative;
@@ -33,11 +36,16 @@ tr th{
     color: rgb(255, 255, 255);
 }
 
-/* creo la classe m-top perchè cosi posso inserirla dove mi serve un margine top */
+/* UTILITY */
 .m-top{
     margin-top: 20px;
 }
 
+.text-gray {
+    color: rgb(178, 178, 178);
+}
+
+/* CLASSI */
 .logo {
     width: 300px;
     position: absolute;
@@ -45,9 +53,6 @@ tr th{
     left: 0; 
 }
 
-.gray {
-    color: rgb(156, 155, 155);
-}
 
 .container-img img{
     width: 49%;
@@ -66,7 +71,7 @@ tr th{
     background-color: rgb(191, 230, 255);
 }
 
-/* classe card per entrambi i box */
+/* classe card per entrambi i bo */
 .card{
     width: 250px;
     height: 200px;
@@ -76,6 +81,7 @@ tr th{
     background-position: center;
 }
 
+
 /* divido i diversi background per ciascuna card */
 .bg-card1{
     background-image: url(../img/monitor.jpg);   
@@ -83,4 +89,9 @@ tr th{
 
 .bg-card2{
     background-image: url(../img/graph.jpg);   
+}
+
+.card h3{
+    padding-top: 10px;
+    padding-left: 10px;
 }
