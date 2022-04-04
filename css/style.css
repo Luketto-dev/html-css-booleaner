@@ -32,6 +32,7 @@ tr th{
     color: rgb(255, 255, 255);
 }
 
+/* creo la classe m-top perchè cosi posso inserirla dove mi serve un margine top */
 .m-top{
     margin-top: 20px;
 }
@@ -60,6 +61,7 @@ tr th{
     background-color: rgb(191, 230, 255);
 }
 
+/* classe card per entrambi i box */
 .card{
     width: 250px;
     height: 200px;
@@ -69,6 +71,7 @@ tr th{
     background-position: center;
 }
 
+/* divido i diversi background per ciascuna card */
 .bg-card1{
     background-image: url(../img/monitor.jpg);   
 }
