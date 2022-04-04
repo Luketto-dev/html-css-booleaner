@@ -1,0 +1,16 @@
+/* inserisco bg all'header */
+header{
+    background-image: url("../img/pattern.png");
+    background-color: rgb(61, 181, 255);
+    background-repeat: repeat;
+    height: 170px;
+    position: relative;
+}
+
+.logo{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 15px;
+}
