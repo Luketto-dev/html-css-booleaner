@@ -24,6 +24,7 @@ main span {
 
 table{
     width: 100%;
+    border-spacing: 0px;
 }
 
 tr th{
@@ -49,12 +50,16 @@ tr th{
 }
 
 .container-img img{
-    width: 48%;
-    height: 450px;
+    width: 49%;
+    height: 600px;
 }
 
 .container-img figcaption{
     font-size: 14px;
+}
+
+.large-col{
+    width: 50%;
 }
 
 .bg-tbody{
